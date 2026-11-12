@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+
+<html lang="hi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&amp;family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"surface-container-highest":"#d3e4fe","surface":"#f8f9ff","surface-bright":"#f8f9ff","secondary":"#9b4500","background":"#f8f9ff","surface-tint":"#2b6954","on-surface-variant":"#404944","primary-container":"#064e3b","on-secondary":"#ffffff","on-tertiary-container":"#aab1ca","on-background":"#0b1c30","primary":"#003527","surface-container":"#e5eeff","secondary-fixed":"#ffdbca","primary-fixed":"#b0f0d6","secondary-container":"#fd8a42","outline-variant":"#bfc9c3","inverse-on-surface":"#eaf1ff","on-secondary-container":"#682c00","tertiary-container":"#3c4459","surface-container-lowest":"#ffffff","on-error":"#ffffff","on-primary-fixed-variant":"#0b513d","surface-dim":"#cbdbf5","secondary-fixed-dim":"#ffb68e","tertiary-fixed-dim":"#bec6e0","error-container":"#ffdad6","surface-variant":"#d3e4fe","on-secondary-fixed-variant":"#763300","tertiary-fixed":"#dae2fd","on-tertiary":"#ffffff","on-tertiary-fixed":"#131b2e","on-primary-container":"#80bea6","surface-container-high":"#dce9ff","inverse-surface":"#213145","inverse-primary":"#95d3ba","error":"#ba1a1a","surface-container-low":"#eff4ff","on-primary-fixed":"#002117","on-tertiary-fixed-variant":"#3f465c","tertiary":"#262e42","on-error-container":"#93000a","on-secondary-fixed":"#331200","outline":"#707974","on-primary":"#ffffff","primary-fixed-dim":"#95d3ba","on-surface":"#0b1c30"},"borderRadius":{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},"spacing":{"margin-mobile":"1rem","space-lg":"1.5rem","space-xs":"0.25rem","space-sm":"0.5rem","gutter-mobile":"1rem","space-xl":"2.5rem","margin":"2rem","space-md":"1rem","gutter":"1.5rem"},"fontFamily":{"headline-sm":["\"Source Serif 4\""],"headline-lg-mobile":["\"Source Serif 4\""],"body-md":["Noto Sans"],"label-sm":["Noto Sans"],"label-md":["Noto Sans"],"headline-xl-mobile":["\"Source Serif 4\""],"headline-md":["\"Source Serif 4\""],"body-sm":["Noto Sans"],"headline-xl":["\"Source Serif 4\""],"title-md":["Noto Sans"],"body-lg":["Noto Sans"],"headline-lg":["\"Source Serif 4\""],"title-lg":["Noto Sans"],"label-lg":["Noto Sans"]},"fontSize":{"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"headline-lg-mobile":["24px",{"lineHeight":"32px","fontWeight":"700"}],"body-md":["15px",{"lineHeight":"24px","fontWeight":"400"}],"label-sm":["11px",{"lineHeight":"14px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","fontWeight":"500"}],"headline-xl-mobile":["30px",{"lineHeight":"38px","fontWeight":"700"}],"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-sm":["13px",{"lineHeight":"20px","fontWeight":"400"}],"headline-xl":["40px",{"lineHeight":"52px","fontWeight":"700"}],"title-md":["16px",{"lineHeight":"24px","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}],"headline-lg":["32px",{"lineHeight":"40px","fontWeight":"700"}],"title-lg":["18px",{"lineHeight":"26px","fontWeight":"600"}],"label-lg":["14px",{"lineHeight":"20px","fontWeight":"600"}]}}}};</script></head><body class="bg-surface font-body-md text-on-surface antialiased"><header class="fixed top-0 w-full z-50 shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-1 w-full bg-gradient-to-r from-[#FF9933] via-[#FFFFFF] to-[#138808]"></div><div class="h-8 w-full bg-tertiary text-on-tertiary px-margin flex items-center justify-between font-label-sm text-label-sm"><div class="flex items-center gap-space-md overflow-hidden"><span class="bg-secondary px-space-xs py-0.5 rounded text-on-secondary font-label-sm uppercase tracking-wide">आपातकालीन सेवा</span><span class="truncate text-on-tertiary-container">पुलिस: 100 | एम्बुलेंस: 108 | महिला हेल्पलाइन: 1090 | सीएम हेल्पलाइन: 181 | आपदा नियंत्रण: 1077</span></div><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><button class="px-1.5 py-0.5 bg-tertiary-container text-on-tertiary rounded hover:bg-surface-tint hover:text-on-primary transition-colors" title="Decrease Font Size" type="button">A-</button><button class="px-1.5 py-0.5 bg-tertiary-container text-on-tertiary rounded hover:bg-surface-tint hover:text-on-primary transition-colors" title="Default Font Size" type="button">A</button><button class="px-1.5 py-0.5 bg-tertiary-container text-on-tertiary rounded hover:bg-surface-tint hover:text-on-primary transition-colors" title="Increase Font Size" type="button">A+</button></div><div class="flex items-center gap-space-xs font-label-md text-label-md"><span class="text-secondary-fixed font-bold">हिन्दी</span><span class="text-outline">|</span><button class="text-on-tertiary-container hover:text-on-tertiary transition-colors" type="button">English</button></div></div></div><div class="h-20 w-full bg-surface-container-lowest/95 backdrop-blur-xl px-margin flex items-center justify-between gap-space-md shadow-[0_1px_4px_rgba(0,0,0,0.02)]"><div class="flex items-center gap-space-md min-w-0"><img alt="Shahdol District Official Emblem" class="h-12 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDafcNc8INpdNKpo30Fkwf-Uh_0pjOKgjH1KQCF2kWEP1Ue6yaSDO9V61qWTdc4CZst0tHgzu-cbN8njNlNkk9seVFbtVfK8Cw_PZDjWGPm5OwnL4OxXrmi9fRak1rhCPmrziUsbibPIAT4UxCMKindbaYXdHE1WuCGzBdTZ8jCpZskiVCMB-rC3H52dZM_lb3iUwnMItCh9xh7dsNN5J2bn_Ch28NcFZ1wIWpY1Ug"/><div class="flex flex-col min-w-0"><span class="font-headline-md text-headline-md text-primary font-bold tracking-tight truncate">जिला शहडोल / District Shahdol</span><span class="font-label-sm text-label-sm text-on-surface-variant font-medium uppercase tracking-wider truncate">मध्य प्रदेश शासन / Government of Madhya Pradesh</span></div></div><div class="hidden lg:flex items-center gap-space-md flex-1 max-w-md mx-space-lg"><div class="relative w-full"><input class="w-full h-10 pl-10 pr-4 rounded-xl bg-surface-container-low text-on-surface placeholder:text-on-surface-variant font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" placeholder="विभागीय आदेश, निविदा, सेवा खोजें..." type="search"/><span class="material-symbols-outlined absolute left-3 top-2.5 text-on-surface-variant text-[20px]">search</span></div></div><div class="flex items-center gap-space-lg flex-shrink-0"><div class="hidden md:flex items-center gap-space-md"><div class="flex flex-col text-right"><span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">आजादी का अमृत महोत्सव</span><span class="font-label-sm text-label-sm text-on-surface-variant">Digital India | MP Tourism</span></div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div><div class="h-12 w-full bg-primary px-margin flex items-center justify-between"><nav class="flex items-center gap-space-xs overflow-x-auto w-full" data-active-classes="bg-primary-container text-on-primary font-bold"><a aria-current="page" class="px-space-md py-2 rounded transition-colors whitespace-nowrap bg-primary-container text-on-primary font-bold" data-path="mukhya-prishth" href="#">मुख्य पृष्ठ</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="itihas-evam-dharohar" href="#">इतिहास एवं धरोहर</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="samanya-parichay" href="#">सामान्य परिचय</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="paryatan-sthal" href="#">पर्यटन स्थल</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="prashasan-evam-collectorate" href="#">प्रशासन एवं कलेक्ट्रेट</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="nagarik-sevayein-va-vibhag" href="#">नागरिक सेवाएं व विभाग</a><a class="px-space-md py-2 rounded text-on-surface-variant hover:bg-primary-container hover:text-on-primary transition-colors font-label-md text-label-md whitespace-nowrap" data-path="aapatkaleen-helpline" href="#">आपातकालीन हेल्पलाइन</a></nav></div></header><main class="w-full pt-41 bg-surface"><div class="flex flex-col w-full">
+<!-- Emergency & Announcement Marquee -->
+<div class="w-full bg-secondary text-on-secondary px-margin py-2.5 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-space-md w-full overflow-hidden">
+<span class="inline-flex items-center gap-1.5 bg-surface-container-lowest text-secondary px-2.5 py-0.5 rounded font-label-sm text-label-sm uppercase tracking-wider shrink-0 shadow-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: 'FILL' 1;">campaign</span>
+        महत्वपूर्ण सूचना
+      </span>
+<div class="overflow-hidden whitespace-nowrap w-full">
+<p class="inline-block animate-[marquee_24s_linear_infinite] font-body-sm text-body-sm tracking-wide">
+          प्राकृतिक आपदा नियंत्रण कक्ष शहडोल: 07652-240212 | जनसुनवाई प्रत्येक मंगलवार प्रातः 11:00 बजे कलेक्ट्रेट सभाकक्ष में | बाणसागर सरसी टापू इको-टूरिज्म बोटिंग प्री-बुकिंग प्रारंभ | समर्थन मूल्य पर धान उपार्जन हेतु किसान पंजीयन पोर्टल सक्रिय।
+        </p>
+</div>
+</div>
+<a class="hidden md:flex items-center gap-1 text-secondary-fixed text-label-sm font-label-sm shrink-0 hover:underline ml-4" href="#">
+      सभी विज्ञप्तियां देखें
+      <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</a>
+</div>
+<!-- Hero Section -->
+<section class="relative w-full overflow-hidden bg-primary text-on-primary">
+<div class="absolute inset-0 opacity-20 pointer-events-none mix-blend-overlay">
+<div class="bg-cover bg-center w-full h-full" data-alt="Dense verdant Sal forest canopy and misty hills of Vindhya Maikal range in central India, lush atmospheric green trees with sunlight piercing morning mist, fine art landscape photography" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBrdsN6ayr-1odMsFPB24_OzMi4wOM6ByRg1uJXTqPhDIO1ci5Kctruhw4ZVWmNa68dVywEJ5Xp5IcpXl-rip1Fo7amTOG93hMMXnFnLPEMnvlIJzpgOVcSdeU290zr8ZisJR5YYRvUW2zyNscqu8497wfbzzTwtC5I5F-6OeEFte66P6dCgrxvjxXm1CSguPK4PA2mdzu5fSH6CaaG6PgjFIAB1M7jzNaKz57RXjg')"></div>
+</div>
+<div class="relative w-full px-margin py-space-xl flex flex-col lg:flex-row items-center justify-between gap-space-xl">
+<div class="flex flex-col gap-space-md max-w-3xl">
+<div class="inline-flex items-center gap-2 bg-primary-container/80 backdrop-blur-md px-space-md py-1 rounded-full w-fit">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary-fixed tracking-wider uppercase">विंध्य अंचल का मुकुटमणि • खनिज व वन संपदा</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-surface-lowest leading-tight tracking-tight">
+          विंध्य और विहंगम प्राकृतिक संपदा की धरा <span class="text-secondary-fixed font-normal italic">— जिला शहडोल</span>
+</h1>
+<p class="font-body-lg text-body-lg text-primary-fixed-dim max-w-2xl leading-relaxed">
+          सोन और जोहिला की पावन जलधाराओं, बाणसागर के विस्तीर्ण जलविस्तार, कल्चुरी कालीन विराटेश्वर महादेव की पावन स्थापत्य कला एवं प्रचुर कोयला भंडार से समृद्ध मध्य प्रदेश का गौरवमयी जनजातीय जिला।
+        </p>
+<div class="flex flex-wrap items-center gap-space-md pt-space-xs">
+<a class="inline-flex items-center gap-2 px-space-lg py-3 rounded-lg bg-secondary text-on-secondary font-label-lg text-label-lg hover:bg-secondary/90 transition-all shadow-md" href="#quick-services">
+<span class="material-symbols-outlined text-[20px]">assignment_turned_in</span>
+            नागरिक ऑनलाइन सेवाएं
+          </a>
+<a class="inline-flex items-center gap-2 px-space-lg py-3 rounded-lg bg-surface-container-lowest/10 backdrop-blur-md text-surface-lowest font-label-lg text-label-lg hover:bg-surface-container-lowest/20 transition-all" href="#district-tour">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+            धरोहर एवं पर्यटन दर्शन
+          </a>
+</div>
+</div>
+<!-- Seal & District Emblem Card -->
+<div class="w-full lg:w-auto flex flex-col items-center">
+<div class="bg-surface-container-lowest/95 backdrop-blur-xl p-space-lg rounded-xl shadow-xl flex flex-col items-center text-center max-w-xs text-on-surface">
+<div class="relative w-36 h-36 rounded-full p-2 bg-surface-container-low shadow-inner mb-3 flex items-center justify-center">
+<div class="bg-cover bg-center w-full h-full rounded-full" data-alt="Official seal medallion of District Administration Shahdol featuring sacred Kalash with coconut, Kalchuri stone temple pillars, dense sal forest silhouettes, Son river ripples, and Hindi calligraphy surrounded by green gold border" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD4C1wBOVPy4O9_EtAt5mDw9LJ1tqxxU4lWmwdfRHbs4gNrgsf5_4NG9C3L8m3NS8A8h25AVg6xZb5GmGfJRD52Tm6XA3YXGrLGFYreBhcDQNIhRS--o538SGEQYQ2dtM3xXBRhQ3kz5DV1GKjf1zNgTn7BujSC-u0ns_s6dti6Q4wEoISViz45BQG5jo_KEio_Ok2C8DXpdsky7SW29GXj0_u13eTza4zuEUQDxuE')"></div>
+</div>
+<span class="font-headline-sm text-headline-sm text-primary font-bold">कलेक्ट्रेट शहडोल</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mt-0.5">मध्य प्रदेश शासन</span>
+<div class="mt-3 pt-3 w-full bg-surface-container-low rounded-lg p-2.5 flex items-center justify-center gap-2 text-on-surface-variant font-label-md text-label-md">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span>अधिकृत शासकीय पोर्टल</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Quick Vital Statistics Strip -->
+<div class="w-full bg-primary-container text-on-primary px-margin py-space-md">
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-space-md divide-x-0 sm:divide-x divide-on-primary-container/20">
+<div class="flex flex-col px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">कुल भौगोलिक क्षेत्रफल</span>
+<span class="font-headline-md text-headline-md font-bold text-surface-lowest">6,205 <span class="text-body-sm font-normal text-primary-fixed-dim">वर्ग किमी</span></span>
+</div>
+<div class="flex flex-col px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">कुल जनसंख्या (2011)</span>
+<span class="font-headline-md text-headline-md font-bold text-surface-lowest">10,66,063</span>
+</div>
+<div class="flex flex-col px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">आबाद राजस्व गाँव</span>
+<span class="font-headline-md text-headline-md font-bold text-surface-lowest">886 <span class="text-body-sm font-normal text-primary-fixed-dim">गाँव</span></span>
+</div>
+<div class="flex flex-col px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">ग्राम पंचायतें</span>
+<span class="font-headline-md text-headline-md font-bold text-surface-lowest">391 <span class="text-body-sm font-normal text-primary-fixed-dim">पंचायत</span></span>
+</div>
+<div class="flex flex-col px-space-sm">
+<span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">स्थानीय नगरीय निकाय</span>
+<span class="font-headline-md text-headline-md font-bold text-surface-lowest">06 <span class="text-body-sm font-normal text-primary-fixed-dim">निकाय</span></span>
+</div>
+</div>
+</div>
+</section>
+<!-- Leadership Spotlight & Administrative Directory -->
+<section class="w-full px-margin py-space-xl bg-surface">
+<div class="flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">कार्यकारी नेतृत्व • प्रशासनिक संरचना</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">जिला प्रशासन एवं कलेक्ट्रेट नेतृत्व</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">अपडेट दिनांक: 01 अक्टूबर 2024 • सामान्य प्रशासन विभाग</span>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+<!-- District Collector Detailed Card -->
+<div class="lg:col-span-6 bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col sm:flex-row gap-space-lg items-center sm:items-start relative overflow-hidden">
+<div class="w-36 h-44 rounded-lg overflow-hidden shrink-0 bg-surface-container-high shadow-md">
+<div class="w-full h-full bg-cover bg-center" data-alt="Distinguished professional executive portrait of Shri Parth Jaiswal IAS District Magistrate Collector dressed in crisp formal administrative attire with Indian tricolor in background" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAvX5W2Qu_fTOuCwZRp38ZuHZqJKdaOuhajPmSow4TW8-7AASUUOyXgQIO582Z6nm4C1UdKt74t6N5IHk1Yj4c5Wp7IuO1soy2MmS8TCM0lBuXeKldFbK_sq73tfXdixlqveLZjNgSAM56O3EjIry9gomf2w0AdAqJvLSfWzCz9Zh-i50yxv0Yxxvm-m5JxrjRj9Y3LXMJahJC1sc4-TM9jWqwYW2Ij6BQGyGmqdZE')"></div>
+</div>
+<div class="flex flex-col justify-between h-full w-full">
+<div>
+<div class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-semibold mb-2">
+<span class="material-symbols-outlined text-[14px]">shield</span>
+                जिला दंडाधिकारी एवं कलेक्टर
+              </div>
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">श्री पार्थ जैसवाल, भा.प्र.से.</h3>
+<p class="font-label-md text-label-md text-on-surface-variant mt-0.5">IAS (बैच 2015, मध्य प्रदेश कैडर) • UPSC Direct Recruitment</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-3 line-clamp-3">
+                "शहडोल जिले के प्रत्येक नागरिक तक शासन की जनकल्याणकारी योजनाओं का पारदर्शी, त्वरित और समयबद्ध लाभ पहुंचाना तथा जिले के औद्योगिक, वानिकी व पर्यटन क्षमता को गति प्रदान करना हमारा प्राथमिक ध्येय है।"
+              </p>
+</div>
+<div class="mt-4 pt-3 flex flex-wrap gap-2 text-label-sm font-label-sm text-on-surface-variant">
+<span class="inline-flex items-center gap-1 bg-surface-container-low px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[15px] text-primary">mail</span> dmshahdol@nic.in
+              </span>
+<span class="inline-flex items-center gap-1 bg-surface-container-low px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[15px] text-primary">call</span> 07652-240200
+              </span>
+<span class="inline-flex items-center gap-1 bg-surface-container-low px-2 py-1 rounded">
+<span class="material-symbols-outlined text-[15px] text-secondary">location_on</span> कलेक्ट्रेट कक्ष क्र. 101
+              </span>
+</div>
+</div>
+</div>
+<!-- Superintendent of Police -->
+<div class="lg:col-span-3 bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex flex-col items-center text-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-surface-container-high shadow-md">
+<div class="w-full h-full bg-cover bg-center" data-alt="Official formal police service portrait of Indian Police Service officer in crisp uniform with medals and shoulder badges against formal administrative studio backdrop" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB01BkzYfEN0HQw8qz69rlh5zT91IG_0VcyPJn-0-tQ5Z0a3MWsQorI1oIftSsAcXyBebJl6ktEyjgkq_cBjQvPv9YIjdz5GD_1ttJTM_kuWN7OXCWIfJ0JeGQ2LU2UpQqzwthASvWSMz0Xqob0NjemWCaKm8l7bL4VRlzljXQ2d5vEKADF6l6UHUBAEVhg3cEW-5pismnjVcZSM1-yr5fat0mVaJF9M9B0cYPM5Ek')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase font-bold">पुलिस अधीक्षक (SP)</span>
+<h4 class="font-title-lg text-title-lg text-on-surface mt-1">श्री रामजी श्रीवास्तव, भा.पु.से.</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">जिला पुलिस बल, शहडोल</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 text-center">
+              शांति, सौहार्द, महिला सुरक्षा एवं साइबर सुरक्षा के लिए 24x7 जनमित्र पुलिसिंग।
+            </p>
+</div>
+<div class="mt-4 pt-3 bg-surface-container-low rounded-lg p-2 flex items-center justify-around font-label-sm text-label-sm">
+<span class="text-on-surface-variant">कंट्रोल रूम: 100</span>
+<span class="text-outline">|</span>
+<span class="text-primary font-bold">07652-240205</span>
+</div>
+</div>
+<!-- Zila Panchayat CEO -->
+<div class="lg:col-span-3 bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col justify-between">
+<div class="flex flex-col items-center text-center">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-surface-container-high shadow-md">
+<div class="w-full h-full bg-cover bg-center" data-alt="Official portrait of senior administrative officer Chief Executive Officer of Zila Panchayat in professional attire in government office" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDtul_ZhsX9dU_FpJNrz2W_-iVoKMLFvISneuovsHInfef84DwmJ5tVLdX5Zt2-GOCjh_1cZ8sywsPqGrQQyEdcR0VlJwrcl2xORPjlsrxHcqev-9LXjwkaf-NzXnAUcGxtyNfZA-2FYWB9Vb1VT-hoprw5-NxxHaSGU_XCIIcLba3ocRRy2J9eyQoKJjHd6upzOmK3Bm4FDPrSl1KHGnAQ8Q6HwCnMaP1kAq5mgWo')"></div>
+</div>
+<span class="font-label-sm text-label-sm text-primary uppercase font-bold">मुख्य कार्यपालन अधिकारी</span>
+<h4 class="font-title-lg text-title-lg text-on-surface mt-1">श्री राजेश जैन, भा.प्र.से.</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant">जिला पंचायत शहडोल</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 text-center">
+              ग्रामीण विकास, मनरेगा, प्रधानमंत्री आवास योजना एवं आजीविका मिशन संवर्धन।
+            </p>
+</div>
+<div class="mt-4 pt-3 bg-surface-container-low rounded-lg p-2 flex items-center justify-around font-label-sm text-label-sm">
+<span class="text-on-surface-variant">कार्यालय: 240218</span>
+<span class="text-outline">|</span>
+<span class="text-secondary font-bold">zp-shahdol@mp.gov.in</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Quick Citizen Services Grid -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low" id="quick-services">
+<div class="flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">ई-गवर्नेंस एवं नागरिक सेवाएं</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">डिजिटल जनसुविधा केंद्र (Quick Citizen Services)</h2>
+</div>
+<a class="inline-flex items-center gap-1 text-primary font-label-md text-label-md hover:underline font-semibold" href="#">
+          सभी 48 विभागीय सेवाएं देखें
+          <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+</a>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- 1. RCMS Land Records -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary/10 text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">description</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">राजस्व विभाग (RCMS)</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-primary transition-colors mt-0.5">खसरा / खतौनी / नक्शा प्रतिलिपि</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                डिजिटली हस्ताक्षरित बी-1 खतौनी, खसरा नकल, नामांतरण एवं सीमांकन प्रकरणों की ऑनलाइन स्थिति।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-primary font-semibold">
+<span>आवेदन व प्रतिलिपि प्राप्त करें</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- 2. CM Helpline 181 -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary/10 text-secondary flex items-center justify-center shrink-0 group-hover:bg-secondary group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[28px]">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">सीएम हेल्पलाइन 181</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-secondary transition-colors mt-0.5">जनशिकायत निवारण प्रणाली</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                शासकीय योजनाओं में असुविधा या शिकायतों के त्वरित समाधान हेतु टोल फ्री 181 पर कॉल या ऑनलाइन ट्रैक करें।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-secondary font-semibold">
+<span>शिकायत दर्ज करें / स्थिति जांचें</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- 3. Birsa Munda Medical College -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-container/10 text-primary-container flex items-center justify-center shrink-0 group-hover:bg-primary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">local_hospital</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">स्वास्थ्य एवं चिकित्सा</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-primary transition-colors mt-0.5">बिरसा मुंडा शासकीय मेडिकल कॉलेज</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                ओपीडी परामर्श स्लॉट, विशेषज्ञ चिकित्सक सूची, ब्लड बैंक उपलब्धता एवं निःशुल्क आयुष्मान भारत सेवाएं।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-primary font-semibold">
+<span>ओपीडी पंजीयन व स्वास्थ्य सेवाएं</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- 4. Tenders & Notices -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-tertiary/10 text-tertiary flex items-center justify-center shrink-0 group-hover:bg-tertiary group-hover:text-on-tertiary transition-colors">
+<span class="material-symbols-outlined text-[28px]">gavel</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant font-bold uppercase tracking-wider">ई-प्रोक्योरमेंट एवं भर्ती</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-tertiary transition-colors mt-0.5">ई-निविदा व जिला भर्ती सूचना</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                जिला स्तर पर लोक निर्माण, जल निगम, खनन पट्टे व संविदा पदों हेतु नवीनतम विज्ञापन और निविदा प्रपत्र।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-tertiary font-semibold">
+<span>निविदा दस्तावेज डाउनलोड करें</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- 5. Jan Sunwai -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-secondary-container/20 text-on-secondary-container flex items-center justify-center shrink-0 group-hover:bg-secondary-container group-hover:text-on-secondary-container transition-colors">
+<span class="material-symbols-outlined text-[28px]">groups</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary font-bold uppercase tracking-wider">कलेक्टर जनसुनवाई</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-secondary transition-colors mt-0.5">जनसुनवाई व समाधान शिविर</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                प्रत्येक मंगलवार प्रातः 11 बजे कलेक्ट्रेट परिसर में सीधे जिला दंडाधिकारी के समक्ष आवेदन प्रस्तुत करने का माध्यम।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-secondary font-semibold">
+<span>टोकन पंजीयन व प्रकरण स्थिति</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+<!-- 6. MP Tourism & Sarsi Booking -->
+<a class="group p-space-lg rounded-xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col justify-between" href="#">
+<div class="flex items-start gap-space-md">
+<div class="w-12 h-12 rounded-lg bg-primary-fixed text-primary flex items-center justify-center shrink-0 group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[28px]">hotel</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">एमपी टूरिज्म (MPSTDC)</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-semibold group-hover:text-primary transition-colors mt-0.5">पर्यटन रिसॉर्ट व बोटिंग बुकिंग</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">
+                सरसी आइलैंड लक्जरी कॉटेज, वाटर स्पोर्ट्स पैकेज एवं शहडोल टूरिज्म सर्किट हेतु आधिकारिक अग्रिम बुकिंग।
+              </p>
+</div>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-primary font-semibold">
+<span>रिजर्वेशन व गाइड विवरण</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- District Highlights Carousel / Grid -->
+<section class="w-full px-margin py-space-xl bg-surface" id="district-tour">
+<div class="flex flex-col gap-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-sm">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest font-bold">धरोहर, आस्था व विहंगम दृश्य</span>
+<h2 class="font-headline-lg text-headline-lg text-primary">शहडोल के प्रमुख आकर्षण व विकास केंद्र</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+          प्राचीन कल्चुरी मूर्तिकला के चमत्कारों से लेकर आधुनिक ईको-टूरिज्म और ऊर्जा हब तक की एक झलक।
+        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter">
+<!-- Sarsi Island Resort -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Expansive panoramic aerial view of Sarsi Island Resort surrounded by vast blue backwaters of Bansagar Dam with lush green island landscapes luxury eco cottages boats and scenic sunset sky in Shahdol Madhya Pradesh" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB3TcZOXty-CDt7IeeDKgQH_WQ3-B_j1dZKMSYFzF12zMOThjMXbOdJ2jWSrgIM8tl206wRauD3MvgJDTQaKuY_twHpcq3GYKJPGgp1K462xsmlqDcYLQ396EuhTw54bFPOF1z2-nEpZDLbcW6MX4WbgzcxeAWXQ4e46i0EdKbHF7BENYOOYpMWaHN2CfR2eZxhX1wx_6KhQvx17jPHFIIWFeH_smETHRfz2oRUQOo')"></div>
+<div class="absolute top-3 left-3 bg-secondary text-on-secondary px-2.5 py-0.5 rounded font-label-sm text-label-sm font-bold shadow-sm">
+              23 एकड़ विस्तार
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-1">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">जल पर्यटन व साहसिक खेल</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold mt-1 group-hover:text-primary transition-colors">सरसी आइलैंड रिसॉर्ट (बाणसागर)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                मध्य प्रदेश का सबसे बड़ा 23 एकड़ में फैला आइलैंड रिसॉर्ट। बाणसागर बांध के अथाह बैकवाटर में नौकायन, स्पीड बोट्स और शांत द्वीप कॉटेज का रोमांचक अनुभव।
+              </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-secondary font-bold">
+<span>दूरी: शहडोल से 45 किमी</span>
+<span class="material-symbols-outlined text-[18px]">kayaking</span>
+</div>
+</div>
+</div>
+<!-- Virateshwar Temple -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Magnificent 10th-11th century stone carved Virateshwar Shiva Temple at Sohagpur Shahdol built by Kalachuri kings showing ornate shikhara intricate sandstone carvings and historic heritage compound in warm afternoon light" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCnxrmTRpHHYi8Wn98C99M-Lxk4XKnfLc8jTd60eh2WbqvQfgBSzqFaZ_v8btFVIzZJLjKI-X2LVrIHU6E-0TWUxpsNDf0kcEKGm64dPBxv3HgCgjIQhLSrSEfENZs7Rwx6W7x7eKsYEsc-5WyqKve59zutdWYS8XUZ5Pmj2Pm1MsikPQ9ierbbwuQJU0ZZmPWvQgnpr-qFxuf0pYAoD73s-9UrE24UO6ApSf3M92o')"></div>
+<div class="absolute top-3 left-3 bg-primary text-on-primary px-2.5 py-0.5 rounded font-label-sm text-label-sm font-bold shadow-sm">
+              10वीं-11वीं शताब्दी
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-1">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">पुरातात्विक धरोहर (Archaeology)</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold mt-1 group-hover:text-primary transition-colors">विराटेश्वर मंदिर, सोहागपुर</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                कल्चुरी नरेशों द्वारा निर्मित बेजोड़ नागर शैली का शिव देवालय। इसका 70 फीट ऊंचा शिखर और दीवारों पर उत्कीर्ण अनुपम देव प्रतिमाएं वास्तुकला का शिखर हैं।
+              </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-primary font-bold">
+<span>संरक्षित स्मारक • सोहागपुर</span>
+<span class="material-symbols-outlined text-[18px]">temple_hindu</span>
+</div>
+</div>
+</div>
+<!-- Banganga & Budhi Mata Mandir -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Sacred stone holy water tank of Banganga Kund and the ancient temple of Budhi Mata in Shahdol surrounded by sacred banyan trees peaceful devotees and traditional flags" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDGzQDCUqRgVylhieAIlt1TPc92J5YnjL6Zq59PLtFTAqj3I6kITmdMxH3gW_luSNnqC-PjWbsl1BUnMhQIZLsvoCOmnMqwdB5Y6hDDghm4rbtn1s3OOOv4NXeMwxj3rOyBG4XPDIIh6dnxxbsdatLGWE_NxwtkAsMM-ILuIIzriNzYGlUC5AyeSOtj_Q7L_cow8dklwGxZZdxP-Cpwyoxo9DP0D2pk8PyfNWJ2qJM')"></div>
+<div class="absolute top-3 left-3 bg-tertiary text-on-tertiary px-2.5 py-0.5 rounded font-label-sm text-label-sm font-bold shadow-sm">
+              पौराणिक तीर्थ
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-1">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">पवित्र जलकुंड व जन आस्था</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold mt-1 group-hover:text-primary transition-colors">बाणगंगा एवं बूढ़ी माता मंदिर</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                मान्यता अनुसार अर्जुन के बाण संधान से प्रकट हुआ पवित्र जलस्रोत। मकर संक्रांति पर विशाल ऐतिहासिक मेले का आयोजन और देवी बूढ़ी माता का सिद्ध शक्तिपीठ।
+              </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-tertiary font-bold">
+<span>वार्षिक बाणगंगा मेला स्थल</span>
+<span class="material-symbols-outlined text-[18px]">water_drop</span>
+</div>
+</div>
+</div>
+<!-- Mineral & Natural Wealth -->
+<div class="flex flex-col bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all group">
+<div class="relative w-full h-52 overflow-hidden bg-surface-container-high">
+<div class="w-full h-full bg-cover bg-center group-hover:scale-105 transition-transform duration-500" data-alt="Vast open cast coal mining seam alongside lush green dense Sal forest valley and Son river corridor representing mineral richness and forestry wealth of Shahdol district" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDqzxH6v0_Q4FLH8xpIF8ciC0bSaJv0Gk0d3lMnBrLG9l2MsFIDIFuGJ0JN6Fwz1EoLA0vG6FSkIwGYuDxqfN-vX9J4ytmHaLgviyg_eiha_b3yA32MzEb-PqxfIvs8QGqN3vMV9CFOPGJlEK1vv2eM36se_rc9B37WRKiO8Kd_pzo7YxhNN9UiMQVfd8FQydWY06qqO0VTGe2os4cf94Svxu0soYpJhLeNCL5_cZQ')"></div>
+<div class="absolute top-3 left-3 bg-secondary-container text-on-secondary-container px-2.5 py-0.5 rounded font-label-sm text-label-sm font-bold shadow-sm">
+              खनिज संपदा
+            </div>
+</div>
+<div class="p-space-md flex flex-col justify-between flex-1">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wide">ऊर्जा हब व प्राकृतिक संपदा</span>
+<h3 class="font-title-lg text-title-lg text-on-surface font-bold mt-1 group-hover:text-primary transition-colors">सोन कछार, वन व कोयला भंडार</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                सोहागपुर कोयला क्षेत्र एशिया के विशालतम भंडार समूहों में से एक। इसके साथ ही ओरिएंट पेपर मिल (अमलाई), सीबीएम गैस दोहन एवं प्रचुर वनोपज से समृद्ध।
+              </p>
+</div>
+<div class="mt-4 pt-3 flex items-center justify-between font-label-md text-label-md text-secondary font-bold">
+<span>SECL • अमलाई • बुढ़ार</span>
+<span class="material-symbols-outlined text-[18px]">diamond</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Data & Public Notices Section -->
+<section class="w-full px-margin py-space-xl bg-surface-container-low">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Latest Notices & Press Releases -->
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-6 bg-secondary rounded-full"></span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">नवीनतम आदेश, निविदाएं एवं विज्ञप्ति</h2>
+</div>
+<div class="flex gap-1">
+<button class="px-3 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm font-semibold">सभी</button>
+<button class="px-3 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm hover:bg-surface-container transition-colors">विभागीय आदेश</button>
+<button class="px-3 py-1 rounded bg-surface-container-lowest text-on-surface-variant font-label-sm text-label-sm hover:bg-surface-container transition-colors">निविदा</button>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl overflow-hidden shadow-sm">
+<div class="divide-y divide-surface-container">
+<!-- Notice 1 -->
+<div class="p-space-md hover:bg-surface-container-low/50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="flex flex-col items-center justify-center bg-surface-container-high px-3 py-1.5 rounded text-center shrink-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">अक्तूबर</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface leading-none">24</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2024</span>
+</div>
+<div class="flex flex-col">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    कलेक्टर कार्यालय (राजस्व शाखा)
+                  </span>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold hover:text-primary transition-colors cursor-pointer mt-0.5">
+                    जिले में आगामी रबी विपणन वर्ष 2024-25 हेतु उपार्जन केंद्रों का निर्धारण एवं नोडल अधिकारियों की नियुक्ति।
+                  </h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">ज्ञापक क्रमांक: 4892/खाद्य/2024 • संचिका सं. 12</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-primary hover:text-on-primary transition-colors shrink-0" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                PDF (1.2 MB)
+              </a>
+</div>
+<!-- Notice 2 -->
+<div class="p-space-md hover:bg-surface-container-low/50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="flex flex-col items-center justify-center bg-surface-container-high px-3 py-1.5 rounded text-center shrink-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">अक्तूबर</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface leading-none">21</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2024</span>
+</div>
+<div class="flex flex-col">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-primary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-primary"></span>
+                    मुख्य चिकित्सा एवं स्वास्थ्य अधिकारी (CMHO)
+                  </span>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold hover:text-primary transition-colors cursor-pointer mt-0.5">
+                    राष्ट्रीय स्वास्थ्य मिशन (NHM) अंतर्गत संविदा महिला स्वास्थ्य कार्यकर्ता (ANM) पदस्थापना काउंसिलिंग सूचना।
+                  </h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">विज्ञापन सं. 102/NHM/स्थापना/2024</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-primary hover:text-on-primary transition-colors shrink-0" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                PDF (850 KB)
+              </a>
+</div>
+<!-- Notice 3 -->
+<div class="p-space-md hover:bg-surface-container-low/50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="flex flex-col items-center justify-center bg-surface-container-high px-3 py-1.5 rounded text-center shrink-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">अक्तूबर</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface leading-none">18</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2024</span>
+</div>
+<div class="flex flex-col">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-tertiary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-tertiary"></span>
+                    कार्यपालन यंत्री, लोक निर्माण विभाग (PWD)
+                  </span>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold hover:text-primary transition-colors cursor-pointer mt-0.5">
+                    अल्पकालीन निविदा आमंत्रण सूचना: सोहागपुर से सिंहपुर मार्ग सुदृढ़ीकरण एवं डामरीकरण कार्य।
+                  </h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">निविदा क्रमांक: 18/PWD/NIT/2024-25</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-primary hover:text-on-primary transition-colors shrink-0" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                PDF (2.4 MB)
+              </a>
+</div>
+<!-- Notice 4 -->
+<div class="p-space-md hover:bg-surface-container-low/50 transition-colors flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-start gap-space-sm">
+<div class="flex flex-col items-center justify-center bg-surface-container-high px-3 py-1.5 rounded text-center shrink-0">
+<span class="font-label-sm text-label-sm text-secondary font-bold">अक्तूबर</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface leading-none">15</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2024</span>
+</div>
+<div class="flex flex-col">
+<span class="inline-flex items-center gap-1 font-label-sm text-label-sm text-secondary font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                    पर्यटन एवं पुरातत्व परिषद
+                  </span>
+<h4 class="font-title-md text-title-md text-on-surface font-semibold hover:text-primary transition-colors cursor-pointer mt-0.5">
+                    विराट महोत्सव 2024 के सांस्कृतिक आयोजनों हेतु स्थानीय लोक कलाकारों एवं दलों का पंजीयन।
+                  </h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1">पंजीयन अंतिम तिथि: 05 नवंबर 2024</span>
+</div>
+</div>
+<a class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded bg-surface-container text-primary font-label-sm text-label-sm font-bold hover:bg-primary hover:text-on-primary transition-colors shrink-0" href="#">
+<span class="material-symbols-outlined text-[16px]">download</span>
+                PDF (620 KB)
+              </a>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-low text-center">
+<a class="font-label-md text-label-md text-primary font-bold hover:underline inline-flex items-center gap-1" href="#">
+              अभिलेखीय पुरानी विज्ञप्तियां एवं गजट देखें
+              <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+<!-- District Demographics & Location Map Glance -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="flex items-center gap-2">
+<span class="w-2.5 h-6 bg-primary rounded-full"></span>
+<h2 class="font-headline-md text-headline-md text-primary font-bold">भौगोलिक स्थिति व अवलोकन</h2>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm flex flex-col gap-space-md">
+<!-- Embedded static map indicator -->
+<div class="w-full h-48 rounded-lg bg-cover bg-center overflow-hidden relative shadow-inner" data-location="Shahdol Collectorate, Madhya Pradesh, India" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBsqkMV2PD5ZUO1UITNM3kRcU8jIaPwqzJTuzNJM4L6y-gsNX1zhO-b1-wZYE3jsNk9_ifWq4nVzX_4MIkUZcUtHGe9RKY6dGa_xS4Oka2g826MM6W2GUdurVbrb6JVK-ZzNNjW9QXKKQy43hwZw8Ti7HMza-T5No6xpowPXeBJ5RCG3J1Jrjy4w9Zmr27w5fasuDCLXkhiQkVsWjX_baNLNpGfhio0TU56tAgPnTc')">
+<div class="absolute bottom-2 left-2 bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded text-on-surface font-label-sm text-label-sm shadow flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">pin_drop</span>
+<span>23.2847° N, 81.3539° E • शहडोल</span>
+</div>
+</div>
+<!-- Key Metrics Mini-Table -->
+<div class="flex flex-col gap-space-xs text-on-surface">
+<div class="flex items-center justify-between py-1.5 bg-surface-container-low px-2 rounded">
+<span class="font-label-md text-label-md text-on-surface-variant">मुख्यालय (Headquarters):</span>
+<span class="font-label-md text-label-md font-bold text-primary">शहडोल (Shahdol)</span>
+</div>
+<div class="flex items-center justify-between py-1.5 px-2 rounded">
+<span class="font-label-md text-label-md text-on-surface-variant">संभाग (Division):</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">शहडोल संभाग</span>
+</div>
+<div class="flex items-center justify-between py-1.5 bg-surface-container-low px-2 rounded">
+<span class="font-label-md text-label-md text-on-surface-variant">तहसीलें (Tehsils):</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">सोहागपुर, बुढ़ार, जयसिंहनगर, ब्यौहारी, जैतपुर</span>
+</div>
+<div class="flex items-center justify-between py-1.5 px-2 rounded">
+<span class="font-label-md text-label-md text-on-surface-variant">प्रमुख नदियां:</span>
+<span class="font-label-md text-label-md font-bold text-on-surface">सोन (Son), जोहिला, मुड़ना</span>
+</div>
+<div class="flex items-center justify-between py-1.5 bg-surface-container-low px-2 rounded">
+<span class="font-label-md text-label-md text-on-surface-variant">एक जिला एक उत्पाद (ODOP):</span>
+<span class="font-label-md text-label-md font-bold text-secondary">हल्दी प्रसंस्करण (Turmeric)</span>
+</div>
+</div>
+<a class="w-full text-center py-2 rounded-lg bg-surface-container text-primary font-label-md text-label-md font-bold hover:bg-primary hover:text-on-primary transition-colors" href="#">
+            जिले की संपूर्ण रूपरेखा व सांख्यिकी
+          </a>
+</div>
+</div>
+</div>
+</section>
+<!-- Emergency Contacts High-Visibility Ribbon -->
+<section class="w-full px-margin py-space-lg bg-primary-container text-on-primary">
+<div class="flex flex-col gap-space-md">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-xs">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-fixed text-[26px]">fmd_bad</span>
+<h3 class="font-title-lg text-title-lg font-bold text-surface-lowest">त्वरित आपातकालीन हेल्पलाइन नंबर (Emergency 24x7)</h3>
+</div>
+<span class="font-label-sm text-label-sm text-primary-fixed-dim">निःशुल्क डायल करें • सदैव आपकी सेवा में तत्पर</span>
+</div>
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-space-sm">
+<a class="p-space-sm rounded-lg bg-surface-container-lowest text-on-surface flex items-center gap-space-sm hover:scale-105 transition-transform shadow" href="tel:100">
+<div class="w-10 h-10 rounded-full bg-error-container text-on-error-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">local_police</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm font-bold text-error leading-none">100</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">पुलिस सहायता</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-lowest text-on-surface flex items-center gap-space-sm hover:scale-105 transition-transform shadow" href="tel:108">
+<div class="w-10 h-10 rounded-full bg-secondary-fixed text-on-secondary-fixed-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">ambulance</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary leading-none">108</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">एम्बुलेंस सेवा</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-lowest text-on-surface flex items-center gap-space-sm hover:scale-105 transition-transform shadow" href="tel:1090">
+<div class="w-10 h-10 rounded-full bg-primary-fixed text-on-primary-fixed-variant flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">woman</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm font-bold text-primary leading-none">1090</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">महिला हेल्पलाइन</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-lowest text-on-surface flex items-center gap-space-sm hover:scale-105 transition-transform shadow" href="tel:1098">
+<div class="w-10 h-10 rounded-full bg-surface-container-highest text-on-surface flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">child_care</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface leading-none">1098</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">चाइल्डलाइन सेवा</span>
+</div>
+</a>
+<a class="p-space-sm rounded-lg bg-surface-container-lowest text-on-surface flex items-center gap-space-sm hover:scale-105 transition-transform shadow" href="tel:181">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">contact_phone</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm font-bold text-secondary-container leading-none">181</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant truncate">सीएम हेल्पलाइन</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-inverse-surface text-inverse-on-surface py-space-xl mt-space-xl"><div class="w-full px-margin"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-lg"><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-secondary-fixed">जिला प्रशासन, शहडोल</h3><p class="font-body-sm text-body-sm text-surface-dim leading-relaxed">कलेक्ट्रेट परिसर, जयस्तंभ चौक, शहडोल, मध्य प्रदेश - 484001। नागरिक-केंद्रित, पारदर्शी और उत्तरदायी शासन के लिए समर्पित आधिकारिक वेब पोर्टल।</p><div class="flex items-center gap-space-sm mt-space-xs"><span class="font-label-sm text-label-sm text-surface-dim">ईमेल:</span><span class="font-label-sm text-label-sm text-secondary-fixed">dmshahdol@nic.in</span></div></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-secondary-fixed">महत्वपूर्ण लिंक (Quick Links)</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-dim"><li class="hover:text-surface-bright transition-colors">मध्य प्रदेश राज्य पोर्टल (mp.gov.in)</li><li class="hover:text-surface-bright transition-colors">सीएम हेल्पलाइन 181 समाधान पोर्टल</li><li class="hover:text-surface-bright transition-colors">भू-अभिलेख एवं राजस्व सेवाएं (RCMS)</li><li class="hover:text-surface-bright transition-colors">ई-निविदा (MP e-Procurement)</li><li class="hover:text-surface-bright transition-colors">जनसुनवाई एवं जनशिकायत निवारण</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-secondary-fixed">सहयोग एवं पहल (Initiatives)</h3><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-dim"><li class="hover:text-surface-bright transition-colors">विराटेश्वर मंदिर पुरातात्विक कॉरिडोर</li><li class="hover:text-surface-bright transition-colors">सरसी टापू एवं बाणसागर पर्यटन विकास</li><li class="hover:text-surface-bright transition-colors">एक जिला एक उत्पाद (ODOP) - हल्दी</li><li class="hover:text-surface-bright transition-colors">डिजिटल इंडिया लैंड रिकॉर्ड्स मॉडर्नाइजेशन</li><li class="hover:text-surface-bright transition-colors">मध्य प्रदेश राज्य पर्यटन विकास निगम</li></ul></div><div class="flex flex-col gap-space-sm"><h3 class="font-title-md text-title-md text-secondary-fixed">तकनीकी प्रबंधन</h3><p class="font-body-sm text-body-sm text-surface-dim leading-relaxed">वेबसाइट सामग्री का प्रबंधन एवं अद्यतनीकरण जिला प्रशासन शहडोल द्वारा किया जाता है।</p><div class="p-space-sm rounded-lg bg-tertiary flex flex-col gap-space-xs"><span class="font-label-sm text-label-sm text-primary-fixed font-bold uppercase tracking-wider">National Informatics Centre</span><span class="font-label-sm text-label-sm text-surface-dim">डिजाइन, विकसित एवं होस्टेड: राष्ट्रीय सूचना विज्ञान केंद्र (NIC), इलेक्ट्रॉनिक्स एवं आईटी मंत्रालय, भारत सरकार</span></div></div></div><div class="pt-space-md border-t border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex flex-col gap-space-xs text-center md:text-left"><p class="font-label-sm text-label-sm text-surface-dim">© 2024 जिला प्रशासन शहडोल, मध्य प्रदेश शासन। सर्वाधिकार सुरक्षित।</p><p class="font-label-sm text-label-sm text-surface-dim">सामग्री अस्वीकरण: इस पोर्टल पर प्रकाशित सांख्यिकी और जनसांख्यिकी आंकड़े आधिकारिक गजट तथा भारत की जनगणना के सत्यापन के अधीन हैं।</p></div><div class="flex items-center gap-space-md font-label-sm text-label-sm text-surface-dim"><span class="hover:text-surface-bright transition-colors">गोपनीयता नीति</span><span>•</span><span class="hover:text-surface-bright transition-colors">नियम एवं शर्तें</span><span>•</span><span class="hover:text-surface-bright transition-colors">हाइपरलिंकिंग नीति</span><span>•</span><span class="hover:text-surface-bright transition-colors">साइटमैप</span></div></div></div></footer></body></html>
